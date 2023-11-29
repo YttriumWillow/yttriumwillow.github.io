@@ -1,10 +1,10 @@
 ---
 title: {{ title }}
 date: {{ date }}
-cover: /gallery/covers/*.jpg
-categories: 
+categories: Test Pages
 tags:
-  - 
+  - Test
+hidden: true
 toc: true
-katex：true
+katex: true
 ---

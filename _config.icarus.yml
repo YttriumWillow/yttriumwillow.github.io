@@ -442,8 +442,3 @@ providers:
     fontcdn: google
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.css'
-
-# https://fastly.jsdelivr.net/npm/${package}/${version}/${filename}
-# https://fastly.jsdelivr.net/npm/jquery    /3.3.1     /dist/jquery.min.js
-# https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css
-# https://fastly.jsdelivr.net/npm/${package}@${version}/${filename}

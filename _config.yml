@@ -115,17 +115,10 @@ hide_posts:
 plugins:
   - "katex"
 
-# math:
-  # engine: 'mathjax'
-  # mathjax:
-  #   src: custom_mathjax_source
-  #   config: 
-  #     # MathJax config
-
-# feed:
-#   type: atom
-#   path: atom.xml
-#   limit: 20
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 
 # My Extensions
 

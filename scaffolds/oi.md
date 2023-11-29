@@ -2,9 +2,9 @@
 title: {{ title }}
 date: {{ date }}
 cover: /gallery/covers/*.jpg
-categories: 
+categories: OI
 tags:
-  - 
+  - OI
 toc: true
 katex：true
 ---
