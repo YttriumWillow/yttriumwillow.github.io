@@ -112,6 +112,9 @@ hide_posts:
   # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
   noindex: true
 
+plugins:
+  - "katex"
+
 # math:
   # engine: 'mathjax'
   # mathjax:

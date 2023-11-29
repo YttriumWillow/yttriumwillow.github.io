@@ -407,12 +407,12 @@ plugins:
         site_id: 
     # Enable the KaTeX math typesetting support
     # https://katex.org/
-    katex: false
+    katex: true
         # enable: false
         # cdn: //cdn.bootcdn.net/ajax/libs/KaTeX/0.16.8/katex.min.css
     # Enable the MathJax math typesetting support
     # https://www.mathjax.org/
-    mathjax: true
+    mathjax: false
         # enable: true
         # per_page: true
         # cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
