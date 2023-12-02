@@ -1,5 +1,5 @@
 ---
-title: 在随便哪一台电脑上写博客？- Hexo 多端同步
+title: 在随便哪一台电脑上写博客？Hexo 多端同步
 date: 2023-11-04 11:00:11
 cover: /gallery/covers/20231102-2.jpg
 categories: 博客

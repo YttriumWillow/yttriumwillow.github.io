@@ -109,6 +109,7 @@ navbar:
         历史: /archives
         分类: /categories
         标签: /tags
+        创作: /
         # 关于: /about
         仓库: https://github.com/YttriumWillow/yttriumwillow.github.io
     # Links to be shown on the right of the navigation bar
@@ -251,7 +252,7 @@ widgets:
         # URL or path to the avatar image
         avatar: https://avatars.githubusercontent.com/u/70789009
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
@@ -286,7 +287,7 @@ widgets:
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: categories
     # Recent posts widget configurations
     -
@@ -302,46 +303,28 @@ widgets:
     #     sticky: false
     #     type: archives
     # Table of contents widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: right
-        sticky: true
-        type: toc
-        # Whether to show the index of each heading
-        index: true
-        # Whether to collapse sub-headings when they are out-of-view
-        collapsed: true
-        # Maximum level of headings to show (1-6)
-        depth: 3
+    # -
+    #     # Where should the widget be placed, left sidebar or right sidebar
+    #     position: right
+    #     sticky: true
+    #     type: toc
+    #     # Whether to show the index of each heading
+    #     index: true
+    #     # Whether to collapse sub-headings when they are out-of-view
+    #     collapsed: true
+    #     # Maximum level of headings to show (1-6)
+    #     depth: 3
     # Tags widget configurations
-    -
-        # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: tags
-        # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
-        order_by: name
-        # Amount of tags to show. Will show all if not set.
-        amount: 10
-        # Whether to show tags count, i.e. number of posts in the tag.
-        show_count: true
-    # Google FeedBurner email subscription widget configurations
     # -
     #     # Where should the widget be placed, left sidebar or right sidebar
     #     position: left
-    #     type: subscribe_email
-    #     # Hint text under the email input
-    #     description: 
-    #     # Feedburner ID
-    #     feedburner_id: ''
-    # Google AdSense unit configurations
-    # -
-    #     # Where should the widget be placed, left sidebar or right sidebar
-    #     position: left
-    #     type: adsense
-    #     # AdSense client ID
-    #     client_id: ''
-    #     # AdSense AD unit ID
-    #     slot_id: ''
+    #     type: tags
+    #     # How to order tags. For example 'name' to order by name in ascending order, and '-length' to order by number of posts in each tags in descending order
+    #     order_by: name
+    #     # Amount of tags to show. Will show all if not set.
+    #     amount: 10
+    #     # Whether to show tags count, i.e. number of posts in the tag.
+    #     show_count: true
     # Follow.it email subscription widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
