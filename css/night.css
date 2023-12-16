@@ -12,57 +12,66 @@ body.night .hljs {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #abb2bf;
-  background: #282c34;
+  background: #1e1e1e;
+  color: #dcdcdc;
+}
+body.night .hljs-keyword,
+body.night .hljs-literal,
+body.night .hljs-symbol,
+body.night .hljs-name {
+  color: #569cd6;
+}
+body.night .hljs-link {
+  color: #569cd6;
+  text-decoration: underline;
+}
+body.night .hljs-built_in,
+body.night .hljs-type {
+  color: #4ec9b0;
+}
+body.night .hljs-number,
+body.night .hljs-class {
+  color: #b8d7a3;
+}
+body.night .hljs-string,
+body.night .hljs-meta-string {
+  color: #d69d85;
+}
+body.night .hljs-regexp,
+body.night .hljs-template-tag {
+  color: #9a5334;
+}
+body.night .hljs-subst,
+body.night .hljs-function,
+body.night .hljs-title,
+body.night .hljs-params,
+body.night .hljs-formula {
+  color: #dcdcdc;
 }
 body.night .hljs-comment,
 body.night .hljs-quote {
-  color: #5c6370;
+  color: #57a64a;
   font-style: italic;
 }
-body.night .hljs-doctag,
-body.night .hljs-keyword,
-body.night .hljs-formula {
-  color: #c678dd;
+body.night .hljs-doctag {
+  color: #608b4e;
 }
-body.night .hljs-section,
-body.night .hljs-name,
-body.night .hljs-selector-tag,
-body.night .hljs-deletion,
-body.night .hljs-subst {
-  color: #e06c75;
+body.night .hljs-meta,
+body.night .hljs-meta-keyword,
+body.night .hljs-tag {
+  color: #9b9b9b;
 }
-body.night .hljs-literal {
-  color: #56b6c2;
-}
-body.night .hljs-string,
-body.night .hljs-regexp,
-body.night .hljs-addition,
-body.night .hljs-attribute,
-body.night .hljs-meta-string {
-  color: #98c379;
-}
-body.night .hljs-built_in,
-body.night .hljs-class .hljs-title {
-  color: #e6c07b;
+body.night .hljs-variable,
+body.night .hljs-template-variable {
+  color: #bd63c5;
 }
 body.night .hljs-attr,
-body.night .hljs-variable,
-body.night .hljs-template-variable,
-body.night .hljs-type,
-body.night .hljs-selector-class,
-body.night .hljs-selector-attr,
-body.night .hljs-selector-pseudo,
-body.night .hljs-number {
-  color: #d19a66;
+body.night .hljs-attribute,
+body.night .hljs-builtin-name {
+  color: #9cdcfe;
 }
-body.night .hljs-symbol,
-body.night .hljs-bullet,
-body.night .hljs-link,
-body.night .hljs-meta,
-body.night .hljs-selector-id,
-body.night .hljs-title {
-  color: #61aeee;
+body.night .hljs-section {
+  color: #ffd700;
 }
 body.night .hljs-emphasis {
   font-style: italic;
@@ -70,8 +79,23 @@ body.night .hljs-emphasis {
 body.night .hljs-strong {
   font-weight: bold;
 }
-body.night .hljs-link {
-  text-decoration: underline;
+body.night .hljs-bullet,
+body.night .hljs-selector-tag,
+body.night .hljs-selector-id,
+body.night .hljs-selector-class,
+body.night .hljs-selector-attr,
+body.night .hljs-selector-pseudo {
+  color: #d7ba7d;
+}
+body.night .hljs-addition {
+  background-color: #144212;
+  display: inline-block;
+  width: 100%;
+}
+body.night .hljs-deletion {
+  background-color: #600;
+  display: inline-block;
+  width: 100%;
 }
 body.night .content code {
   color: #cbba7d;
@@ -361,57 +385,66 @@ body.night .twikoo code {
     display: block;
     overflow-x: auto;
     padding: 0.5em;
-    color: #abb2bf;
-    background: #282c34;
+    background: #1e1e1e;
+    color: #dcdcdc;
+  }
+  body:not(.light) .hljs-keyword,
+  body:not(.light) .hljs-literal,
+  body:not(.light) .hljs-symbol,
+  body:not(.light) .hljs-name {
+    color: #569cd6;
+  }
+  body:not(.light) .hljs-link {
+    color: #569cd6;
+    text-decoration: underline;
+  }
+  body:not(.light) .hljs-built_in,
+  body:not(.light) .hljs-type {
+    color: #4ec9b0;
+  }
+  body:not(.light) .hljs-number,
+  body:not(.light) .hljs-class {
+    color: #b8d7a3;
+  }
+  body:not(.light) .hljs-string,
+  body:not(.light) .hljs-meta-string {
+    color: #d69d85;
+  }
+  body:not(.light) .hljs-regexp,
+  body:not(.light) .hljs-template-tag {
+    color: #9a5334;
+  }
+  body:not(.light) .hljs-subst,
+  body:not(.light) .hljs-function,
+  body:not(.light) .hljs-title,
+  body:not(.light) .hljs-params,
+  body:not(.light) .hljs-formula {
+    color: #dcdcdc;
   }
   body:not(.light) .hljs-comment,
   body:not(.light) .hljs-quote {
-    color: #5c6370;
+    color: #57a64a;
     font-style: italic;
   }
-  body:not(.light) .hljs-doctag,
-  body:not(.light) .hljs-keyword,
-  body:not(.light) .hljs-formula {
-    color: #c678dd;
+  body:not(.light) .hljs-doctag {
+    color: #608b4e;
   }
-  body:not(.light) .hljs-section,
-  body:not(.light) .hljs-name,
-  body:not(.light) .hljs-selector-tag,
-  body:not(.light) .hljs-deletion,
-  body:not(.light) .hljs-subst {
-    color: #e06c75;
+  body:not(.light) .hljs-meta,
+  body:not(.light) .hljs-meta-keyword,
+  body:not(.light) .hljs-tag {
+    color: #9b9b9b;
   }
-  body:not(.light) .hljs-literal {
-    color: #56b6c2;
-  }
-  body:not(.light) .hljs-string,
-  body:not(.light) .hljs-regexp,
-  body:not(.light) .hljs-addition,
-  body:not(.light) .hljs-attribute,
-  body:not(.light) .hljs-meta-string {
-    color: #98c379;
-  }
-  body:not(.light) .hljs-built_in,
-  body:not(.light) .hljs-class .hljs-title {
-    color: #e6c07b;
+  body:not(.light) .hljs-variable,
+  body:not(.light) .hljs-template-variable {
+    color: #bd63c5;
   }
   body:not(.light) .hljs-attr,
-  body:not(.light) .hljs-variable,
-  body:not(.light) .hljs-template-variable,
-  body:not(.light) .hljs-type,
-  body:not(.light) .hljs-selector-class,
-  body:not(.light) .hljs-selector-attr,
-  body:not(.light) .hljs-selector-pseudo,
-  body:not(.light) .hljs-number {
-    color: #d19a66;
+  body:not(.light) .hljs-attribute,
+  body:not(.light) .hljs-builtin-name {
+    color: #9cdcfe;
   }
-  body:not(.light) .hljs-symbol,
-  body:not(.light) .hljs-bullet,
-  body:not(.light) .hljs-link,
-  body:not(.light) .hljs-meta,
-  body:not(.light) .hljs-selector-id,
-  body:not(.light) .hljs-title {
-    color: #61aeee;
+  body:not(.light) .hljs-section {
+    color: #ffd700;
   }
   body:not(.light) .hljs-emphasis {
     font-style: italic;
@@ -419,8 +452,23 @@ body.night .twikoo code {
   body:not(.light) .hljs-strong {
     font-weight: bold;
   }
-  body:not(.light) .hljs-link {
-    text-decoration: underline;
+  body:not(.light) .hljs-bullet,
+  body:not(.light) .hljs-selector-tag,
+  body:not(.light) .hljs-selector-id,
+  body:not(.light) .hljs-selector-class,
+  body:not(.light) .hljs-selector-attr,
+  body:not(.light) .hljs-selector-pseudo {
+    color: #d7ba7d;
+  }
+  body:not(.light) .hljs-addition {
+    background-color: #144212;
+    display: inline-block;
+    width: 100%;
+  }
+  body:not(.light) .hljs-deletion {
+    background-color: #600;
+    display: inline-block;
+    width: 100%;
   }
   body:not(.light) .content code {
     color: #cbba7d;
