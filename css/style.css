@@ -11644,8 +11644,8 @@ figure.highlight.foldable div.level-left {
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container {
-    max-width: 960px;
-    width: 960px;
+    max-width: 1088px;
+    width: 1088px;
   }
 }
 @media screen and (min-width: 1472px) {
