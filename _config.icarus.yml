@@ -3,7 +3,9 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+logo: 
+    light: /img/logo.svg
+    dark: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -229,7 +231,7 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
@@ -422,6 +424,7 @@ providers:
     # Name or URL template of the JavaScript and/or stylesheet CDN provider
     cdn: 'https://fastly.jsdelivr.net/npm/${package}@${version}/${filename}'
     # Name or URL template of the webfont CDN provider
-    fontcdn: google
+    fontcdn: '/css/font/NotoSansSC_UbuntuMono.css'
     # Name or URL of the fontawesome icon font CDN provider
-    iconcdn: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.css'
+    # iconcdn: 'https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.css'
+    iconcdn: '/css/fontawesome/css/all.css'
