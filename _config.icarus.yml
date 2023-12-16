@@ -108,10 +108,10 @@ navbar:
     # Navigation menu items
     menu:
         主页: /
+        创作: /creatures
         历史: /archives
         分类: /categories
         标签: /tags
-        创作: /creatures
         # 关于: /about
         仓库: https://github.com/YttriumWillow/yttriumwillow.github.io
     # Links to be shown on the right of the navigation bar
