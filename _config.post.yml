@@ -10,8 +10,11 @@ widgets:
         type: profile
         author: YttrWillow 的小站
         author_title: みんな、今日も頑張ろう！
+        location: Zhejiang, China
         avatar: https://avatars.githubusercontent.com/u/70789009
         avatar_rounded: true
+        gravatar: 
+        follow_link: https://github.com/YttriumWillow
     -
         position: left
         sticky: true
@@ -20,9 +23,12 @@ widgets:
         amount: 10
         show_count: true
     -
-        position: left
+        position: right
         sticky: true
         type: toc
         index: true
         collapsed: true
         depth: 3
+    -
+        position: left
+        type: categories
