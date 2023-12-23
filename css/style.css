@@ -11641,11 +11641,23 @@ figure.highlight.foldable div.level-left {
   text-decoration: none !important;
   background-color: #276cda;
 }
+@media screen and (min-width: 1700px) {
+  .container {
+    max-width: 1600px;
+    width: 1600px;
+  }
+  .container .column.is-3-widescreen {
+    width: 22%;
+  }
+  .container .column.is-6-widescreen {
+    width: 56%;
+  }
+}
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container {
-    max-width: 1088px;
-    width: 1088px;
+    max-width: 960px;
+    width: 960px;
   }
 }
 @media screen and (min-width: 1472px) {

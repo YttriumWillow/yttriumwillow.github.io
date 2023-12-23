@@ -11641,11 +11641,23 @@ figure.highlight.foldable div.level-left {
   text-decoration: none !important;
   background-color: #276cda;
 }
+@media screen and (min-width: 1700px) {
+  .container {
+    max-width: 1600px;
+    width: 1600px;
+  }
+  .container .column.is-3-widescreen {
+    width: 22%;
+  }
+  .container .column.is-6-widescreen {
+    width: 56%;
+  }
+}
 @media screen and (min-width: 1280px) {
   .is-1-column .container,
   .is-2-column .container {
-    max-width: 1088px;
-    width: 1088px;
+    max-width: 960px;
+    width: 960px;
   }
 }
 @media screen and (min-width: 1472px) {
@@ -11684,6 +11696,13 @@ figure.highlight.foldable div.level-left {
 .navbar-logo .logo-img-dark,
 .footer-logo .logo-img-dark {
   display: none;
+}
+@media screen and (max-width: 768px) {
+  .navbar,
+  .navbar-menu,
+  .card {
+    background-color: rgba(40,44,52,0.5);
+  }
 }
 body.night {
   background: #0e1225;
@@ -11795,10 +11814,9 @@ body.night .navbar-main .navbar-menu .navbar-item:focus {
   background-color: #373d48;
 }
 body.night .navbar,
+body.night .navbar-menu,
 body.night .card {
   background-color: rgba(40,44,52,0.5);
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
 }
 body.night .card:hover {
   background-color: rgba(40,44,52,0.8);
@@ -12144,10 +12162,9 @@ body.night .twikoo code {
     background-color: #373d48;
   }
   body:not(.light) .navbar,
+  body:not(.light) .navbar-menu,
   body:not(.light) .card {
     background-color: rgba(40,44,52,0.5);
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
   }
   body:not(.light) .card:hover {
     background-color: rgba(40,44,52,0.8);
